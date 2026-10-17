@@ -1,0 +1,27 @@
+# Local workspaces and configuration are never source code.
+.local/
+config.json
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.log
+*.lock
+*.sqlite*
+*.db
+*.wav
+*.mp4
+*.mov
+*.pdf
+*.pem
+*.key
+auth.json
+cookies*
+storage_state*
+node_modules/
+dist/
+build/
+

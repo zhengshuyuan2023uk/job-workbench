@@ -1,0 +1,10 @@
+{
+  "live_enabled": false,
+  "self_uid": "",
+  "self_name": "",
+  "attachment_name": "",
+  "notification_email": "",
+  "notifications_enabled": false,
+  "codex_executable": "codex",
+  "cdp_url": "http://127.0.0.1:9229"
+}

@@ -1,0 +1,2 @@
+# Python 3.11+; only the optional live CDP connection needs this package.
+websocket-client==1.9.0

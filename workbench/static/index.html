@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>行进 · 求职工作台</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <aside class="sidebar">
+    <a class="brand" href="#today" aria-label="行进，返回今日待办"><span class="brand-mark">↗</span><span>行进<small>开源求职工作台</small></span></a>
+    <div class="sidebar-label">我的求职</div>
+    <nav aria-label="主要导航">
+      <button data-page="today"><span aria-hidden="true">◷</span>今日待办<span id="nav-task-count" class="nav-count"></span></button>
+      <button data-page="jobs"><span aria-hidden="true">▦</span>岗位管理</button>
+      <button data-page="conversations"><span aria-hidden="true">☷</span>沟通记录</button>
+      <button data-page="learning"><span aria-hidden="true">⌁</span>案例复盘</button>
+      <button data-page="documents"><span aria-hidden="true">▤</span>我的资料</button>
+    </nav>
+    <div class="sidebar-note"><span class="small-caps">工作方式</span><strong>有据可循</strong><p>整理机会 · 跟进沟通 · 保留未知</p><div class="sidebar-rule"></div><p>让事实进入记录，<br>让决定回到本人。</p></div>
+    <div class="local-label"><span class="dot"></span>本机工作台</div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb">求职工作台 <span>/</span> <strong id="crumb">今日待办</strong></div><div class="topbar-actions"><span id="refresh-time">正在读取记录…</span><button id="refresh" class="button quiet">↻ 刷新记录</button></div></header>
+    <div id="demo-notice" class="demo-banner" role="note" hidden><strong>演示模式</strong><span>所有数据均为虚构 · 操作只在本地模拟 · 不连接招聘平台、模型服务或邮箱</span></div>
+    <main id="main" tabindex="-1"><div class="loading">正在整理你的求职记录…</div></main>
+    <footer id="workspace-footer">沟通记录保存在本机。收集并分析只读取和整理；一键跟进按当前授权处理。网页刷新本身不发送消息。</footer>
+  </div>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div id="detail"></div></dialog>
+  <dialog id="document-dialog" aria-labelledby="document-title"><div class="dialog-head"><h2 id="document-title">资料</h2><button id="close-document" class="icon-button" aria-label="关闭资料">×</button></div><div id="document-body" class="document-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
