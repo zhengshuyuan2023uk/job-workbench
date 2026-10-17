@@ -6,11 +6,13 @@
 
 **当前版本：0.1.0 Alpha。** 默认提供完全离线的虚构演示。真实连接与发送是需要逐账号验收的实验功能。
 
-## 先看演示
+## 1 分 36 秒看懂怎么用
+
+https://github.com/user-attachments/assets/600fc3b9-24b1-4e42-926f-9fdeaa14852e
 
 ![行进工作台：虚构数据演示](docs/images/workbench.png)
 
-[观看或下载中文讲解视频](https://github.com/zhengshuyuan2023uk/job-workbench/releases/tag/v0.1.0-alpha) · [配置真实工作区](docs/configuration.md) · [验证范围](docs/verification.md)
+[下载 MP4](https://github.com/zhengshuyuan2023uk/job-workbench/releases/download/v0.1.0-alpha/job-workbench-demo.zh-CN.mp4) · [中文字幕](https://github.com/zhengshuyuan2023uk/job-workbench/releases/download/v0.1.0-alpha/job-workbench-demo.zh-CN.srt) · [配置真实工作区](docs/configuration.md) · [验证范围](docs/verification.md)
 
 视频使用本人授权音色、中文字幕和虚构求职数据。画面中的跟进与附件操作是本地模拟，不是向真实招聘方发送的录像。
 
